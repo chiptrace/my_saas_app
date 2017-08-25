@@ -6,13 +6,7 @@ gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
-
-#Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.1'
-#info te vinden door de naam in google op te zoeken, zoals : https://github.com/twbs/bootstrap-sass
-
-
-#Use postgresql as the database for production
+# Use postgresql as the database for production
 group :production do
     gem 'pg'
     gem 'rails_12factor'
@@ -20,6 +14,11 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
+# Use bootstrap library for styles
+# info te vinden door de naam in google op te zoeken, zoals : https://github.com/twbs/bootstrap-sass
+gem 'bootstrap-sass', '~> 3.3.1'
+# Use fontawsome library for icns
+gem 'font-awesome-sass', '~> 4.2.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -35,7 +34,6 @@ gem 'turbolinks'
 gem 'jbuilder', '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '0.4.0',          group: :doc
-
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
