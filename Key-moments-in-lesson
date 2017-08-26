@@ -29,8 +29,9 @@ les 102 :
 les 115 : 
     - op zetten batabase (DB)
     - opmaken colummen voor contactform in DB = les 116
-    - gebruik contactformulier
-    - bewaren gegevens in DB
-    - 
-
+    - gebruik contactformulier = les 119
+... VANAF HIER VEEL UITLEG OVER WERKING / PROCEDURS V/D CODE
+    - link in navbar = les 121
+    - bewaren gegevens in DB = les 122 + uitleg = les 123
+    - flash notice toevoegen = les 124
 
