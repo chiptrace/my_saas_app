@@ -1,16 +1,26 @@
 <div class="row">
-    <%= form_for @contact do |f| %>
-        <%= f.label :name %>
-        <%= f.text_field :name %>
+    <div class="col-md-4 col-md-offset-4">
+        <div class="well">
+            <%= form_for @contact do |f| %>
+            <!--contact komt can "contact" in de contacts_controller.rb" -->
+                
+                <div class="form-group">
+                    <%= f.label :name %>
+                    <%= f.text_field :name, class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :email %>
+                    <%= f.email_field :email, class: 'form-control' %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :comments %>
+                    <%= f.text_area :comments, class: 'form-control' %>
+                </div>
+                <%= f.submit 'Submit', class: 'btn btn-default' %>
         
-        
-        <%= f.label :email %>
-        <%= f.email_field :email %>
-        
-        
-        <%= f.label :comments %>
-        <%= f.text_area :comments %>
-        
-    <% end %>
-
+            <% end %>
+        </div>
+    </div>
 </div>
