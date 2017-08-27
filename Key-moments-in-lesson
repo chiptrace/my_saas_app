@@ -46,4 +46,5 @@ les 134 :
     - lidmaatschap site installeren
         gebruik een nieuwe GEM : DEVISE => https://rubygems.org/gems/devise/versions/4.2.0
     - opmaak verbeteren met BOOTSTRAP = les 136
+    - navbar aanvullen met nieuwe pagina's met links + signout knop indien ingelogd = les 137
     - 
