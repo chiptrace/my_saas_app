@@ -38,4 +38,10 @@ les 115 :
     - uitleg werking DB en werking van website / webservers / browser / gebruikers = les 126
     - uitleg over gegevensstroom bij form-flow = les 128
     - e-mail verzenden (met SendGrid) als bevestiging als er een nieuwe gebruiker werd aangemaakt = les 129 -> 132
+
+MIJLPAAL : Eerste deploy + mails verzenden actief
+controle code mogelijk op : https://github.com/simplecodecasts/simplecodecasts_saas
+
+les 134 :
+    - lidmaatschap site installeren
     - 

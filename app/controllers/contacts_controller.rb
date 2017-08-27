@@ -31,16 +31,6 @@ class ContactsController < ApplicationController
         end
     end
     
-    # De gebruikergegevens aanpassen in DB.
-    def update
-        
-    end
-    
-    # Verwijderen van een gebruiker uit de DB.
-    def delete
-        
-    end
-    
     # Welke gegevens dienen er in formulier te komen ?
     # Welke opbouw van de DB willen we ?
     private
