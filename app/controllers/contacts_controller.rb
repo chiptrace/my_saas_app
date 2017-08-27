@@ -10,6 +10,12 @@ class ContactsController < ApplicationController
         @contact = Contact.new(contact_params)
         
         if @contact.save
+            name = params[:contact][:name]
+            email = params[:contact][:email]
+            body = params[:contact][:body]
+
+            ContactMailer.contact_email(name, email, body).deliver
+
             # Bij naam geven van een FLASH-gebreurtenissen best woorden gebruiken die ook bij BOOTSTRAP gebruitk wordt.
             # Hier gebruiken we "succes" en "danger".
             # Dan kunnen we die naam van de FLASH gebruiken als variabele om een "stijl" te benoemen.
