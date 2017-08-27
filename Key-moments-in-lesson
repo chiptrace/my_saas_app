@@ -44,4 +44,6 @@ controle code mogelijk op : https://github.com/simplecodecasts/simplecodecasts_s
 
 les 134 :
     - lidmaatschap site installeren
+        gebruik een nieuwe GEM : DEVISE => https://rubygems.org/gems/devise/versions/4.2.0
+    - opmaak verbeteren met BOOTSTRAP = les 136
     - 
