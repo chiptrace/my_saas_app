@@ -10,10 +10,13 @@ class ContactsController < ApplicationController
         @contact = Contact.new(contact_params)
         
         if @contact.save
+            # Ontvangen gegevens (uit een hash) terug in tijdelijke variabelen steken, om dan de contact in te vullen in email dmv "deliver".
             name = params[:contact][:name]
             email = params[:contact][:email]
             body = params[:contact][:body]
 
+            # contact_mailer zal dan die tijdelijke variabelen gebruiken.
+            # Die zal ze in een andere variablenen steken, met een @ voor, zoals @name.
             ContactMailer.contact_email(name, email, body).deliver
 
             # Bij naam geven van een FLASH-gebreurtenissen best woorden gebruiken die ook bij BOOTSTRAP gebruitk wordt.
