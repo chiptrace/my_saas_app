@@ -39,12 +39,16 @@ les 115 :
     - uitleg over gegevensstroom bij form-flow = les 128
     - e-mail verzenden (met SendGrid) als bevestiging als er een nieuwe gebruiker werd aangemaakt = les 129 -> 132
 
-MIJLPAAL : Eerste deploy + mails verzenden actief
-controle code mogelijk op : https://github.com/simplecodecasts/simplecodecasts_saas
+MIJLPAAL !!
+    Eerste deploy + mails verzenden actief
+    controle code mogelijk op : https://github.com/simplecodecasts/simplecodecasts_saas
 
 les 134 :
     - lidmaatschap site installeren
         gebruik een nieuwe GEM : DEVISE => https://rubygems.org/gems/devise/versions/4.2.0
     - opmaak verbeteren met BOOTSTRAP = les 136
     - navbar aanvullen met nieuwe pagina's met links + signout knop indien ingelogd = les 137
+
+les 138 :
+    - betalingen via webpagina installeren
     - 
