@@ -13,7 +13,7 @@ class ContactsController < ApplicationController
             # Ontvangen gegevens (uit een hash) terug in tijdelijke variabelen steken, om dan de contact in te vullen in email dmv "deliver".
             name = params[:contact][:name]
             email = params[:contact][:email]
-            body = params[:contact][:body]
+            body = params[:contact][:comments]
 
             # contact_mailer zal dan die tijdelijke variabelen gebruiken.
             # Die zal ze in een andere variablenen steken, met een @ voor, zoals @name.
