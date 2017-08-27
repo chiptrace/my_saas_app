@@ -37,5 +37,5 @@ les 115 :
     - lege inhoud posten uit form => niet toelaten + kleur toekennen aan eroor bericht = les 125
     - uitleg werking DB en werking van website / webservers / browser / gebruikers = les 126
     - uitleg over gegevensstroom bij form-flow = les 128
-    - e-mail als bevestiging als er een nieuwe gebruiker werd aangemaakt = les 129
+    - e-mail verzenden (met SendGrid) als bevestiging als er een nieuwe gebruiker werd aangemaakt = les 129 -> 132
     -
